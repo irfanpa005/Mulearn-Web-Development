@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background: linear-gradient(#09335b, #a33d66);
+    color: #ffffff;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 20px;
+}
