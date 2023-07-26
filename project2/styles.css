@@ -1,0 +1,79 @@
+.bg1{
+    background-color: rgb(200, 200, 114);
+    color: #09335b;
+}
+
+.bg2{
+    background-color: rgb(23, 91, 3);
+    color: #ffffff;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#09335b, #a33d66);
+    color: #ffffff;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.head{
+    width: 100%;
+    text-align: start;
+    background-color: aqua
+}
+
+.main >h3 {
+    white-space: nowrap;
+    padding: 8px;
+}
+
+img{
+    width: 150px;
+    border-radius: 100%;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.detail-col{
+    flex: 1;
+    font-size: 20px;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width: 1130px){
+    .elem3{
+        flex: 1 1 100%;
+    }
+}
+
+@media all and (max-width: 600px){
+    .elem1,elem2,elem3{
+        flex: 1 1 100%;
+    }
+}
