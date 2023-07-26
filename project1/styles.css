@@ -1,13 +1,47 @@
+.bg1{
+    background-color: rgb(200, 200, 114);
+    color: #09335b;
+}
+
+.bg2{
+    background-color: rgb(23, 91, 3);
+    color: #ffffff;
+}
+
 body {
     text-align: center;
     background: linear-gradient(#09335b, #a33d66);
     color: #ffffff;
+    width: 100%;
 }
 
 .main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     margin: 20px 20px;
+    width: 100%;
+}
+
+.head{
+    width: 100%;
+    text-align: start;
+    background-color: aqua
+}
+
+.main >h3 {
+    white-space: nowrap;
+    padding: 8px;
+}
+
+img{
+    width: 150px;
+    border-radius: 100%;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
