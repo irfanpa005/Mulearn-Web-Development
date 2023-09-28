@@ -23,6 +23,7 @@ main {
 .header--image {
     height: 100%;
     margin-right: 6px;
+    
 }
 
 .header--title {
@@ -61,11 +62,16 @@ main {
 
 .meme {
     position: relative;
+    
 }
 
 .meme--image {
     max-width: 100%;
     border-radius: 3px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 .meme--text {
